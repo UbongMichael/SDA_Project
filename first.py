@@ -1,6 +1,4 @@
-# # # # # Definition of the function named print_hello_world
-# # # # def print_hello_world():
-# # # #     print("Hello world from inside the function!")
+
 # # # ##################################################################################################
 # # # #
 # # #
@@ -23,136 +21,12 @@
 # # # # print (euros, type(euro)))
 # #
 # #
-# # # def name_of_month(number_of_month):
-# # #     number = ()
-# # # #
-# # # # # money_change(someValue1)
-# # # # # money_change(someValue2)
-# #
-# # def square(input_integer):
-# #     input_integer ** 2
+
 # #
 # #
-# # print(square(5))
-# #
-# #
-# # ######################################
-# #
-# # def square(input_integer):
-# #     return input_integer ** 2
-# #
-# #
-# # print(square(5))
-# #
-# #
-# # ######################################
-# #
-# #
-# # def print_hello_world():
-# #      print("Hello world from inside the function!")
-# # #
-# # #
-# # # # Calling print_hello_world()
-# # print_hello_world()
-# #
-# #
-# # ######################################
-# #
-# #
-# # Function definition of greet_by_name (name)
-# def greet_by_name(name):
-#     print(f"Hello, {name}")  # f-string, string interpolation
-#
-#
-# # Call function greet_by_name (name) with "John" as the name argument
-# greet_by_name("Vince")
-# #
-# #
-# # ######################################
-# #
-# #
-# # # Function for printing name and surname
-# # def print_full_name(name, surname):
-# #     print(f"{name} {surname}")
-# #
-# #
-# # ######################################
-# #
-# #
-# # # Calling a function without specifying parameter names
-# # print_full_name("Jon", "Snow")
-# #
-# # ######################################
-# #
-# # # Function call with names of all parameters
-# # print_full_name(name="Jon", surname="Snow")
-# #
-# # ######################################
-# #
-# # # Calling the function with the names of the last parameter
-# # print_full_name("Jon", surname="Snow")
-# #
-# # ######################################
-# #
-# # # Calling the function with the names of the last parameter
-# # print_full_name("Jon", surname="Snow")
-# #
-# # ######################################
-# #
-# # # Calling the function with the names of the last parameter
-# # print_full_name(surname="Snow", name="Jon")
-# #
-# # ######################################
-# #
-# # # Calling the function with the names of the last parameter
-# # print_full_name("Snow", "Jon")
-# #
-# #
-# # ######################################
-# #
-# # # The definition of the function greet_by_name (name) with the default value of name
-# # def greet_by_name(name="World!"):
-# #     print(f"Hello, {name}")
-# #
-# #
-# # # Calling the function greet_by_name (name) without an argument
-# # greet_by_name()  # Prints "Hello, World!"
-# #
-# # # Calling the function greet_by_name (name) with "John" as the name argument
-# # greet_by_name("Liina")  # Prints 'Hello, Liina'
-# # greet_by_name(name="Fariha")  # Prints 'Hello, Fariha'
-# #
-# #
-# # ######################################
-# #
-# #
-# # # Add any number of numbers
-# # def add(*args):
-# #     result = 0
-# #     for arg in args:
-# #         result += arg
-# #     return result
-# #
-# #
-# # print(add(1, 2, 3, 4, 5))  # Prints 15
-# # print(add(1, 2))
-# #
-# #
-# # ######################################
-# #
-# #
-# # # Prints the name and what the user gives
-# # def print_name_and_something(name, *strings):
-# #     print(f"First name: {name}")
-# #     for string in strings:
-# #         print(string)
-# #
-# #
-# # print_name_and_something("Helmet", "how are you today?")
-# # print_name_and_something("Ubong")
-# #
-# #
-# # ######################################
+
+
+
 # #
 # #
 # # # 1. Money change
@@ -186,6 +60,7 @@
 # # print(pounds1, type(pounds1))
 # # pounds2 = float(input(
 # #     "Dearest sir or madam, please specify the number or quantity of pounds you'd like to exchange for euros. Thank you."))
+
 # # print(pounds2, type(pounds2))
 # # outputMessage = "The equivalent value in euros is: "
 # # print(f"You're exchanging {pounds1} for {money_change(pounds1)}")
